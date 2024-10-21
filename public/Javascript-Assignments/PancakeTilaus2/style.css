@@ -1,0 +1,213 @@
+body {
+  font-family: "Tajawal", sans-serif;
+  background-color: #fff8f0;
+  color: #5a4a42;
+  font-size: 3rem;
+}
+
+header img {
+  margin-left: auto;
+  margin-right: auto;
+  height: 20vh;
+}
+
+header {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+header button {
+  display: none;
+  width: 4vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid black;
+  padding-top: 3rem;
+}
+
+h1, h3{
+  text-align: center;
+  font-weight: bold;
+  font-size: 5vh;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: bold;
+  padding-top: 3rem;
+  font-size: 4vh;
+}
+
+h4 {
+  padding-top: 3vh;
+  font-weight: bold;
+  font-size: 4vh;
+}
+
+.customization-section-type {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-bottom: 2rem;
+}
+
+select {
+  height: 6rem;
+  width: 50%;
+  justify-content: center;
+  font-size: 2vh;
+  text-align: center;
+  color: #5a4a42;
+  margin-left: 2rem;
+  border: 2px solid black;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.customization-section {
+  display: flex;
+  margin-right: auto;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.customization-section p {
+  padding-top: 1.5rem;
+  padding-right: 1rem;
+}
+
+input[type="checkbox"] {
+  width: 4rem;
+  accent-color: #ed6d02;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 25rem;
+  height: 2rem;
+  font-size: 3rem;
+  padding: 2rem;
+  color: #5a4a42;
+}
+
+#submitOrder {
+  color: #5a4a42;
+  background-color: white;
+  border-color: gainsboro;
+  border: 1px solid black;
+}
+
+#price-banner {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+#price-banner {
+  background-color: #ed6d02;
+  color: white;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  vertical-align: middle;
+  font-size: large;
+}
+
+ul {
+  padding-left: 2vh;
+}
+
+li {
+  font-size: 3vh;
+  font-weight: bold;
+  padding: 1vh 0 1vh 0;
+}
+
+span {
+  font-size: 3vh;
+  font-weight: normal;
+}
+
+.hinta {
+  margin-top: 2rem;
+  font-size: 4vh;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.hinta span{
+  font-size: 4vh;
+  text-decoration: underline;
+}
+
+input[type="submit"] {
+  color: #5a4a42;
+  background-color: white;
+  border-color: gainsboro;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  border: solid 1px black;
+}
+
+.totalPrice {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 6rem;
+  font-weight: 500;
+}
+
+input[type="submit"] {
+  justify-content: center;
+  height: 10rem;
+  font-size: 3rem;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.container img {
+  display: none;
+}
+
+#orderSummary {
+  display: none;
+  flex-direction: column;
+}
+
+#kiitos {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 5vh;
+  margin-top: 10vh;
+  font-weight: bold;
+}
+
+#returnHome {
+  width: auto;
+  height: 5vh;
+  font-size: 3vh;
+}
+
+
+@media screen and (max-width: 600px) {
+
+}

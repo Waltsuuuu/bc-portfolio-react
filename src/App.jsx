@@ -391,17 +391,17 @@ function App() {
                   05-puhelinluettelo
                 </a>{" "}
                 (
-                <a href="./assets/phonebook_state1.png" target="_blank">
+                <a href="React-Assignment-Screenshots/phonebook_state1.png" target="_blank">
                   {" "}
                   State 1
                 </a>{" "}
                 -
-                <a href="./assets/phonebook_state2.png" target="_blank">
+                <a href="React-Assignment-Screenshots/phonebook_state2.png" target="_blank">
                   {" "}
                   State 2
                 </a>{" "}
                 -
-                <a href="./assets/phonebook_state3.png" target="_blank">
+                <a href="React-Assignment-Screenshots/phonebook_state3.png" target="_blank">
                   {" "}
                   State 3
                 </a>{" "}
@@ -415,17 +415,17 @@ function App() {
                   06-maiden-tiedot
                 </a>{" "}
                 (
-                <a href="./assets/country-data_state1.png" target="_blank">
+                <a href="React-Assignment-Screenshots/country-data_state1.png" target="_blank">
                   {" "}
                   State 1
                 </a>{" "}
                 -
-                <a href="./assets/country-data_state2.png" target="_blank">
+                <a href="React-Assignment-Screenshots/country-data_state2.png" target="_blank">
                   {" "}
                   State 2
                 </a>{" "}
                 -
-                <a href="./assets/country-data_state3.png" target="_blank">
+                <a href="React-Assignment-Screenshots/country-data_state3.png" target="_blank">
                   {" "}
                   State 3
                 </a>{" "}

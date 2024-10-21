@@ -1,24 +1,29 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
-const Kurssi = ({ nimi, handleSelectKurssi, index }) => {
+const Kurssi = ({ nimi, handleSelectKurssi, index, activeIndex }) => {
+  const handleClick = () => {
+    handleSelectKurssi(index); 
+  };
 
-    const handleClick = () => {
-        handleSelectKurssi(index); // This triggers the function in the App component
-      };
+  const kurssiStyle = {
+    cursor: "pointer",
+    fontWeight: activeIndex === index ? "bold" : "lighter", 
+  };
 
-    return (
-        <>
-            <h4 className="sisennys-4rem" onClick={handleClick}>{nimi}</h4>
-        </>
-        // TODO: if isSelected then display course assignments.
-    )
-
-}
+  return (
+    <>
+      <h4 className="sisennys-4rem" onClick={handleClick} style={kurssiStyle}>
+        {nimi}
+      </h4>
+    </>
+  );
+};
 
 Kurssi.propTypes = {
-    nimi: PropTypes.string,
-    handleSelectKurssi: PropTypes.func,
-    index: PropTypes.number
-}
+  nimi: PropTypes.string,
+  handleSelectKurssi: PropTypes.func,
+  index: PropTypes.number,
+  activeIndex: PropTypes.number,
+};
 
 export default Kurssi;

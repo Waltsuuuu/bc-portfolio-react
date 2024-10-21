@@ -2,6 +2,10 @@ import { useState } from "react";
 import Header from "./components/Header";
 import TutkinnonOsa from "./components/TutkinnonOsa";
 import Kurssi from "./components/Kurssi";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+
+
 
 function App() {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -238,7 +242,7 @@ function App() {
         />
         {activeIndex === 5 && (
           <ul>
-            <li>Kurssi ei ole alkanut.</li>
+            <li>Give me things!</li>
           </ul>
         )}
 
@@ -315,7 +319,7 @@ function App() {
         />
         {activeIndex === 11 && (
           <>
-          <h3 className="sisennys-4rem">01-Oppimistehtävät</h3>
+          <h3 className="sisennys-4rem react-tehtava-header">01-Oppimistehtävät</h3>
             <ul>
               <li>
                 <a href="https://waltsuuuu.github.io/01-part1/" target="_blank">
@@ -346,7 +350,7 @@ function App() {
                 </a>
               </li>
             </ul>
-            <h3 className="sisennys-4rem">
+            <h3 className="sisennys-4rem react-tehtava-header">
               02-Soveltavat tehtävät
             </h3>
             <ul>
@@ -446,7 +450,7 @@ function App() {
 
       <footer>
         <p className="footer-p">
-          Waltteri Heino - <a href="#">Portfolio</a> -{" "}
+          Waltteri Heino - <a href="https://github.com/Waltsuuuu" target="_blank">GitHub <FontAwesomeIcon icon={faGithub} /></a>
         </p>{" "}
       </footer>
     </>

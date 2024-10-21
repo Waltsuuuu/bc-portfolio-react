@@ -1,7 +1,7 @@
 html {
-    font-size: 62.5%;
+    font-size: 70.5%;
 }
-body {
+#root {
     margin: 2rem;
     font-family: sans-serif;
 }
@@ -18,7 +18,7 @@ header {
 }
 
 header div{
-    margin: 1rem 0 0 1rem;
+    margin: 2.5rem 0 0 1rem;
 }
 
 h1 {
@@ -89,6 +89,11 @@ li a:hover {
     background-color: #E0E0E0;
 }
 
+.react-tehtava-header {
+    background-color: white;
+    font-weight: 500;
+}
+
 .sisennys-4rem:hover {
     background-color: white;
 }
@@ -96,7 +101,7 @@ li a:hover {
 .footer-p {
     background-color: #5E002E;
     color: #FADFD1;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding: 1rem;
     border: 1px solid 5E002E;
     border-radius:0 0 10px 10px;

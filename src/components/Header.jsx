@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <>
       <header>
-        <div>
+        <div className="oppilas-tiedot">
           <h1>Waltteri Heino</h1>
           <h2>WP24K</h2>
           <h3>s2400316</h3>

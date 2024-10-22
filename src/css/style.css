@@ -1,126 +1,156 @@
 html {
-    font-size: 70.5%;
+  font-size: 70.5%;
 }
+
 #root {
-    margin: 2rem;
-    font-family: sans-serif;
+  margin: 2rem;
+  font-family: sans-serif;
 }
 
 header {
-    display: flex;
-    flex-direction: row;
-    background-color: #5E002E;
-    border: 1px solid 5E002E;
-    border-radius: 10px 10px 0 0;
-    color:#FADFD1;
-    line-height: 2rem;
-    padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  background-color: #5e002e;
+  border: 1px solid 5002eE;
+  border-radius: 10px 10px 0 0;
+  color: #fadfd1;
+  line-height: 2rem;
+  padding: 0.5rem;
 }
 
-header div{
-    margin: 2.5rem 0 0 1rem;
+header div {
+  margin: 2.5rem 0 0 1rem;
 }
 
 h1 {
-    font-size: 2rem;
-    padding-bottom: 1rem;
+  font-size: 2rem;
+  padding-bottom: 1rem;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
-h2, h3, h4{
-    font-size: 1.5rem;
+h2,
+h3,
+h4 {
+  font-size: 1.5rem;
 }
 
 #tutOsat {
-    background-color: white;
+  background-color: white;
 }
 
-header img{
-    height: 100%;
-    width: 200px;
+header img {
+  height: 100%;
+  width: 200px;
 }
 
 header figure {
-    margin-left: auto;
-    padding: 1rem 1rem 2rem 0;
+  margin-left: auto;
+  padding: 1rem 1rem 2rem 0;
 }
 
 .ops {
-    border: 1px solid #5E002E;
-    line-height: 3rem;
+  border: 1px solid #5e002e;
+  line-height: 3rem;
 }
 
 .ops h1 {
-    padding: 0.5rem 0 0.5rem 1rem;
+  padding: 0.5rem 0 0.5rem 1rem;
 }
 
 .ops h2 {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 .ops ul {
-    padding-left: 7rem;
-    font-size: 1.5rem;
-    text-decoration: underline; 
-    list-style-type: circle;
-    font-style: italic;
-    font-weight: lighter;
+  padding-left: 7rem;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  list-style-type: circle;
+  font-style: italic;
+  font-weight: lighter;
 }
 
 li a:hover {
-    background-color: #5E002E;
-    color:#FADFD1
+  background-color: #5e002e;
+  color: #fadfd1;
 }
 
 .sisennys-2rem {
-    padding-left: 2rem;
-    background-color: #E0E0E0;
-    font-size: 1.7rem;
+  padding-left: 2rem;
+  background-color: #e0e0e0;
+  font-size: 1.7rem;
 }
 
 .sisennys-4rem {
-    padding-left: 4rem;
-    font-style: italic;
-    font-weight: lighter;
-    background-color: #E0E0E0;
+  padding-left: 4rem;
+  font-style: italic;
+  font-weight: lighter;
+  background-color: #e0e0e0;
 }
 
 .react-tehtava-header {
-    background-color: white;
-    font-weight: 500;
+  background-color: white;
+  font-weight: 500;
 }
 
 .sisennys-4rem:hover {
-    background-color: white;
+  background-color: white;
 }
 
 .footer-p {
-    background-color: #5E002E;
-    color: #FADFD1;
-    font-size: 1.5rem;
-    padding: 1rem;
-    border: 1px solid 5E002E;
-    border-radius:0 0 10px 10px;
-    font-weight: 10;
+  background-color: #5e002e;
+  color: #fadfd1;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border: 1px solid 5002eE;
+  border-radius: 0 0 10px 10px;
+  font-weight: 10;
 }
 
 .footer-p a {
-    color: #FADFD1;
-    font-style: italic;
-    text-decoration: none;
+  color: #fadfd1;
+  font-style: italic;
+  text-decoration: none;
 }
 
 i {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
-@media screen and (max-width: 450px){
-    header img {
-        width: 150px;
-    }
-    
+@media screen and (max-width: 450px) {
+
+  #root {
+    margin: 3px;
+  }
+
+  header img {
+    width: 130px;
+  }
+
+  header div {
+    margin-top: 1.5rem;
+  }
+
+  .oppilas-tiedot > h1 {
+  }
+
+  .oppilas-tiedot > h2,
+  .oppilas-tiedot > h3,
+  .oppilas-tiedot > h4 {
+    font-size: 1.2rem;
+    font-weight: ligher;
+    line-height: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  #root {
+    padding: 2rem;
+    margin: auto;
+    width: 70%;
+  }
 }

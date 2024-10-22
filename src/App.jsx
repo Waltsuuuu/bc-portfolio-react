@@ -415,7 +415,7 @@ function App() {
                   06-maiden-tiedot
                 </a>{" "}
                 (
-                <a href="Public/React-Assignment-Screenshots/country-data_state1.png" target="_blank">
+                <a href="React-Assignment-Screenshots/country-data_state1.png" target="_blank">
                   {" "}
                   State 1
                 </a>{" "}
